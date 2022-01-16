@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=The+Nautigal&display=swap');
+
+body {
+    font-family: 'Outfit';
+    line-height: 25px;
+    font-size: 18px;
+}
+
+/* .navbar {
+    margin-top: 20px;
+} */
+
+/* nav */
+
+.navbar-brand {
+    font-family: 'Caveat';
+    font-size: 30px;
+    margin-left: 30px;
+    color: #ffffff;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.navbar-brand:visited {
+    font-family: 'Caveat';
+    font-size: 25px;
+    margin-left: 30px;
+    color: #ffffff;
+}
+
+.fa {
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.nav-link {
+    color: #fdfdfd;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px rgb(0, 0, 0);
+}
+
+.nav-link:visited {
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* end nav */
+
+.jumbotron {
+    background: url(img/gaaaa.jpg);
+    height: 700px;
+    background-size: cover;
+    text-align: center;
+}
+
+.selamat {
+    padding-top: 250px;
+    font-size: 40px;
+    font-family: 'The Nautigal';
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px black;
+}
+
+.head {
+    margin-top: -10px;
+    font-size: 50px;
+    font-family: 'Caveat';
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px black;
+}
+
+.text {
+    color: white;
+    margin-top: -25px;
+    text-shadow: 1px 1px black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* laptop */
+@media (min-width: 992px) {
+    .navbar {
+        padding: 30px;
+    }
+
+    .navbar-brand {
+        font-family: 'Caveat';
+        font-size: 40px;
+        font-weight: bold;
+        text-shadow: 2px 2px black;
+    }
+
+    .nav-link {
+        text-transform: uppercase;
+        font-size: 16px;
+        margin-right: 30px;
+    }
+
+    .nav-link:hover {
+        text-transform: uppercase;
+        font-size: 16px;
+        margin-right: 30px;
+        color: #ffffff;
+    }
+
+    .jumbotron {
+        background: url(img/mbbba.jpg);
+        height: 700px;
+        background-size: cover;
+        text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+
+
+    }
+
+    .selamat {
+        margin-top: -20px;
+        font-size: 80px;
+    }
+
+    .head {
+        font-size: 100px;
+    }
+
+
+
+
+
+
+
+}
